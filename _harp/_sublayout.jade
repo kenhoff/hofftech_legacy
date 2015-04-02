@@ -1,0 +1,18 @@
+extends _mainlayout
+
+block content
+	.subnav
+		a(href = "/"): img#navlogo(src = "/hofftech-logo-01.png")
+		.subnavbuttons
+			a.subnavbutton(href = "/who")
+				.subnavbuttontext who we are
+			a.subnavbutton(href = "/what")
+				.subnavbuttontext what we do
+			a.subnavbutton(href = "/why")
+				.subnavbuttontext why we do it
+		a.hamburger(href = "#")
+			.hamburger-icon
+				i.fa.fa-bars.fa-2x
+
+
+	block subcontent
