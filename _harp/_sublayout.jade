@@ -6,7 +6,14 @@ block head
 block content
 	.snap-drawers
 		.snap-drawer.snap-drawer-right
-			p asdfasdfasdf
+			.drawerbuttons
+				a.subnavbutton(href = "/who")
+					.subnavbuttontext who we are
+				a.subnavbutton(href = "/what")
+					.subnavbuttontext what we do
+				a.subnavbutton(href = "/why")
+					.subnavbuttontext why we do it
+
 	#content.snap-content
 		.subnav
 			a(href = "/"): img#navlogo(src = "/hofftech-logo-01.png")
