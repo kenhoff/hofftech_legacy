@@ -6,24 +6,24 @@ The Field Of Heroes, a memorial in Central Ohio, is a field of almost 7000 cross
 
 ## Description
 
+Try it out: QR code
+
 worked with Ryen and Chad at Azure Active Directory
 Ryen and Chad went through the MSSA program http://westillserve.com/mssa/, a program to prepare former US active duty service members for high-tech IT and software development jobs
+
 Ryen kept in touch with a mailing list for graduates of the program
 Heard of a project called the Field of Heroes, memorial in Cassondra's hometown in ohio, 7000 crosses dedicated to soldiers who fell during the engagements in the middle east
+
 The project was looking for a web developer - Ryen put out some feelers, I volunteered my time
 Aside: volunteering low-skilled labor vs high-skilled labor
 I got involved, worked with Cassondra and Zane
 began meeting every tuesday for a couple hours in the Garage, 
 
-
+presents some interesting non-engineering problems; scanning the QR code and redirecting to a specific URL is easy. so that means you'll need a specific QR code for each soldier. how are the QR codes going to be attached to the crosses? is it just stickers that get placed on the crosses, or printed off, cut out and taped on there? how do the organizers (potentially nontechnical people) know which QR codes go on which crosses? if they're printing them on stickers, what format do they need them in? some of these are more logistical problems than anything else
 service generated ~7000 individual QR codes, presented to them in a printable format
+
 Azure website, running on node, express, using jade as a template engine, and connected to a sql db using Zane's WCF api
 
 presented to MSSA group, served as some mentorship opportunities
-donated lots of time to the org
-
-
-
-
-try scanning this with a qr code scanner: blah
+donated lots of time to the org through //give, microsoft's employee time matching program
 
