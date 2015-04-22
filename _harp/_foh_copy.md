@@ -18,12 +18,11 @@ The Field of Heroes is a memorial of almost 7000 crosses, each one dedicated to 
 
 Cassondra was looking for a web developer; she already had another graduate of the MSSA program, Zane Coppedge, who had been working on the project so far. They had a list of soldiers, and Zane had been populating a SQL database with all the information. Ryen put out some feelers on the Azure Active Directory team, to see if anyone knew any web developers who would be interested in donating some time on the project.
 
+I have some feelings on the nature of volunteer work. Anyone can donate time; I can volunteer at the food bank, or spend a day at a park doing some trail work. However, I also have a very specialized set of skills, and if I donate my technical time and expertise in the right way, it can be orders of magnitude more valuable to the organization than providing unskilled labor. 
 
+(reword that) ^
 
-The project was looking for a web developer - Ryen put out some feelers, I volunteered my time
-Aside: volunteering low-skilled labor vs high-skilled labor
-I got involved, worked with Cassondra and Zane
-began meeting every other tuesday for a couple hours in the Garage, 
+Ryen introduced me to Cassondra and Zane, and we set up a 3-hour hack session every two weeks in the Garage at Microsoft. Cassondra was managing the project and communicating with the organizers, and Zane was working on getting the data into a database and available for usage. I'd be responsible for generating QR codes and the web server, and making sure that when a QR code got scanned, the right soldier's information would come up.
 
 presents some interesting non-engineering problems; scanning the QR code and redirecting to a specific URL is easy. so that means you'll need a specific QR code for each soldier. how are the QR codes going to be attached to the crosses? is it just stickers that get placed on the crosses, or printed off, cut out and taped on there? how do the organizers (potentially nontechnical people) know which QR codes go on which crosses? if they're printing them on stickers, what format do they need them in? some of these are more logistical problems than anything else
 service generated ~7000 individual QR codes, presented to them in a printable format
