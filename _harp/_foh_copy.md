@@ -28,7 +28,11 @@ Our architecture ran entirely on Microsoft Azure, with a single webserver to dis
 
 Generating the QR code and having the webserver display the correct information wasn't hard, but this project presented some interesting nontechnical challenges. How do you get ~7000 QR codes, each individually keyed to a specific cross, handed off to some nontechnical event organizers, who will need to print stickers for each one and place them on the correct crosses?
 
+used just a small way for them to get individual and bulk qr codes - foh.net/qr/[soldierID] , foh.net/qrcodes , foh.net/qrcodes/regenerate
 
 presented to MSSA group, served as some mentorship opportunities
+
 donated lots of time to the org through //give, microsoft's employee time matching program
+
+scheduled to go live on memorial day
 
