@@ -24,10 +24,10 @@ I have some feelings on the nature of volunteer work. Anyone can donate time; I 
 
 Ryen introduced me to Cassondra and Zane, and we set up a 3-hour hack session every two weeks in the Garage at Microsoft. Cassondra was managing the project and communicating with the organizers, and Zane was working on getting the data into a database and available for usage. I'd be responsible for generating QR codes and the web server, and making sure that when a QR code got scanned, the right soldier's information would come up.
 
-presents some interesting non-engineering problems; scanning the QR code and redirecting to a specific URL is easy. so that means you'll need a specific QR code for each soldier. how are the QR codes going to be attached to the crosses? is it just stickers that get placed on the crosses, or printed off, cut out and taped on there? how do the organizers (potentially nontechnical people) know which QR codes go on which crosses? if they're printing them on stickers, what format do they need them in? some of these are more logistical problems than anything else
-service generated ~7000 individual QR codes, presented to them in a printable format
+Our architecture ran entirely on Microsoft Azure, with a single webserver to display the pages and generate QR codes, and a SQL database paired with a WCF API. The webserver was running node.js, using the Express framework, and using Jade templates to compile and serve static pages for each soldier; no dynamic pages here!
 
-running on node, express, using jade as a template engine. Zane had already begun development on the database by the time we started, so we just rolled forward with a WCF API to his SQL database with the soldier data.
+Generating the QR code and having the webserver display the correct information wasn't hard, but this project presented some interesting nontechnical challenges. How do you get ~7000 QR codes, each individually keyed to a specific cross, handed off to some nontechnical event organizers, who will need to print stickers for each one and place them on the correct crosses?
+
 
 presented to MSSA group, served as some mentorship opportunities
 donated lots of time to the org through //give, microsoft's employee time matching program
