@@ -8,11 +8,14 @@ The Field Of Heroes, a memorial in Central Ohio, is a field of almost 7000 cross
 
 Try it out: QR code
 
-During my time at Microsoft, I worked on a product called Azure Active Directory (basically just Active Directory in the Cloud(tm)). I got the chance to work closely with two engineers who are now great friends of mine, Ryen Macababbad and Chadwick Hasbrook.
+During my time at Microsoft, I had the chance to work closely with two engineers who are now great friends of mine: Ryen Macababbad and Chadwick Hasbrook.
 
-Ryen and Chad are former Army and Air Force (respectively) service members who have gone through the Microsoft Software and Systems Academy, a program dedicated to preparing former US active duty service members for high-tech IT and software development jobs.
+Ryen and Chad are former Army and Air Force (respectively) service members who have gone through the [Microsoft Software and Systems Academy](http://westillserve.com/mssa/), a program dedicated to preparing former US active duty service members for high-tech IT and software development jobs.
 
-Ryen kept in touch with a mailing list for graduates of the program
+After her graduation, Ryen kept in touch with a mailing list for graduates of the program. She met Cassondra Slaughter, another Microsoft employee looking for volunteers to help with a memorial in her hometown in central Ohio.
+
+The Field of Heroes is a memorial of almost 7000 crosses, each one dedicated to a service member who fell during the engagements in the Middle East. 
+
 Heard of a project called the Field of Heroes, memorial in Cassondra's hometown in ohio, 7000 crosses dedicated to soldiers who fell during the engagements in the middle east
 
 The project was looking for a web developer - Ryen put out some feelers, I volunteered my time
