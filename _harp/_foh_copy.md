@@ -10,18 +10,20 @@ Try it out: QR code
 
 During my time at Microsoft, I had the chance to work closely with two engineers who are now great friends of mine: Ryen Macababbad and Chadwick Hasbrook.
 
-Ryen and Chad are former Army and Air Force (respectively) service members who have gone through the [Microsoft Software and Systems Academy](http://westillserve.com/mssa/), a program dedicated to preparing former US active duty service members for high-tech IT and software development jobs.
+Ryen and Chad are former Army and Air Force (respectively) service members who have gone through the [Microsoft Software and Systems Academy](http://westillserve.com/mssa/) (MSSA), a program dedicated to preparing former US active duty service members for high-tech IT and software development jobs.
 
-After her graduation, Ryen kept in touch with a mailing list for graduates of the program. She met Cassondra Slaughter, another Microsoft employee looking for volunteers to help with a memorial in her hometown in central Ohio.
+After her graduation, Ryen kept in touch with a mailing list for graduates of the program. She met Cassondra Slaughter, another Microsoft employee who was looking for volunteers to help with a memorial in her hometown in central Ohio.
 
-The Field of Heroes is a memorial of almost 7000 crosses, each one dedicated to a service member who fell during the engagements in the Middle East. 
+The Field of Heroes is a memorial of almost 7000 crosses, each one dedicated to a service member who fell during the engagements in the Middle East. Cassondra offered to help the organizers of the memorial using Microsoft's talent and resources. They decided that a way that Microsoft could help would be to put together an app that would scan codes that would be placed on the crosses, and display additional information about the soldiers.
 
-Heard of a project called the Field of Heroes, memorial in Cassondra's hometown in ohio, 7000 crosses dedicated to soldiers who fell during the engagements in the middle east
+Cassondra was looking for a web developer; she already had another graduate of the MSSA program, Zane Coppedge, who had been working on the project so far. They had a list of soldiers, and Zane had been populating a SQL database with all the information. Ryen put out some feelers on the Azure Active Directory team, to see if anyone knew any web developers who would be interested in donating some time on the project.
+
+
 
 The project was looking for a web developer - Ryen put out some feelers, I volunteered my time
 Aside: volunteering low-skilled labor vs high-skilled labor
 I got involved, worked with Cassondra and Zane
-began meeting every tuesday for a couple hours in the Garage, 
+began meeting every other tuesday for a couple hours in the Garage, 
 
 presents some interesting non-engineering problems; scanning the QR code and redirecting to a specific URL is easy. so that means you'll need a specific QR code for each soldier. how are the QR codes going to be attached to the crosses? is it just stickers that get placed on the crosses, or printed off, cut out and taped on there? how do the organizers (potentially nontechnical people) know which QR codes go on which crosses? if they're printing them on stickers, what format do they need them in? some of these are more logistical problems than anything else
 service generated ~7000 individual QR codes, presented to them in a printable format
