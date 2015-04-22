@@ -6,17 +6,24 @@ The Field Of Heroes, a memorial in Central Ohio, is a field of almost 7000 cross
 
 ## Description
 
-Ryen and Chad
-MSSA program http://westillserve.com/mssa/
-Ryen was involved with a project looking for a web developer
+worked with Ryen and Chad at Azure Active Directory
+Ryen and Chad went through the MSSA program http://westillserve.com/mssa/, a program to prepare former US active duty service members for high-tech IT and software development jobs
+Ryen kept in touch with a mailing list for graduates of the program
+Heard of a project called the Field of Heroes, memorial in Cassondra's hometown in ohio, 7000 crosses dedicated to soldiers who fell during the engagements in the middle east
+The project was looking for a web developer - Ryen put out some feelers, I volunteered my time
+Aside: volunteering low-skilled labor vs high-skilled labor
 I got involved, worked with Cassondra and Zane
-met every tuesday, donated lots of time to the org
-presented to MSSA group, served as some mentorship opportunities
+began meeting every tuesday for a couple hours in the Garage, 
+
 
 service generated ~7000 individual QR codes, presented to them in a printable format
-
-
-
 Azure website, running on node, express, using jade as a template engine, and connected to a sql db using Zane's WCF api
+
+presented to MSSA group, served as some mentorship opportunities
+donated lots of time to the org
+
+
+
+
 try scanning this with a qr code scanner: blah
 
