@@ -8,8 +8,9 @@ The Field Of Heroes, a memorial in Central Ohio, is a field of almost 7000 cross
 
 Try it out: QR code
 
-worked with Ryen and Chad at Azure Active Directory
-Ryen and Chad went through the MSSA program http://westillserve.com/mssa/, a program to prepare former US active duty service members for high-tech IT and software development jobs
+During my time at Microsoft, I worked on a product called Azure Active Directory (basically just Active Directory in the Cloud(tm)). I got the chance to work closely with two engineers who are now great friends of mine, Ryen Macababbad and Chadwick Hasbrook.
+
+Ryen and Chad are former Army and Air Force (respectively) service members who have gone through the Microsoft Software and Systems Academy, a program dedicated to preparing former US active duty service members for high-tech IT and software development jobs.
 
 Ryen kept in touch with a mailing list for graduates of the program
 Heard of a project called the Field of Heroes, memorial in Cassondra's hometown in ohio, 7000 crosses dedicated to soldiers who fell during the engagements in the middle east
@@ -22,7 +23,7 @@ began meeting every tuesday for a couple hours in the Garage,
 presents some interesting non-engineering problems; scanning the QR code and redirecting to a specific URL is easy. so that means you'll need a specific QR code for each soldier. how are the QR codes going to be attached to the crosses? is it just stickers that get placed on the crosses, or printed off, cut out and taped on there? how do the organizers (potentially nontechnical people) know which QR codes go on which crosses? if they're printing them on stickers, what format do they need them in? some of these are more logistical problems than anything else
 service generated ~7000 individual QR codes, presented to them in a printable format
 
-Azure website, running on node, express, using jade as a template engine, and connected to a sql db using Zane's WCF api
+running on node, express, using jade as a template engine. Zane had already begun development on the database by the time we started, so we just rolled forward with a WCF API to his SQL database with the soldier data.
 
 presented to MSSA group, served as some mentorship opportunities
 donated lots of time to the org through //give, microsoft's employee time matching program
