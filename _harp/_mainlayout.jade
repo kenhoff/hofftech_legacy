@@ -5,10 +5,10 @@ head
 	script.
 		document.addEventListener("DOMContentLoaded", function () {
 			var svg = new Walkway({selector: '#logo', duration: 8000, easing: "easeInOutExpo"});
-			svg.draw(function () {console.log ("draw complete") });
+			svg.draw();
 		})
 	link(rel = "stylesheet", href = "/main.css", type = "text/css")
-	link(rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
+	link(rel = "stylesheet" href = "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css")
 	block head
 
 body
