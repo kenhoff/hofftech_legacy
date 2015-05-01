@@ -4,9 +4,7 @@ head
 	script(src = "http://cdn.jsdelivr.net/walkway/0.0.1/walkway.min.js")
 	script.
 		document.addEventListener("DOMContentLoaded", function () {
-			console.log ("initializing...");
 			var svg = new Walkway({selector: '#logo', duration: 8000, easing: "easeInOutExpo"});
-			console.log(svg);
 			svg.draw(function () {console.log ("draw complete") });
 		})
 	link(rel = "stylesheet", href = "/main.css", type = "text/css")
