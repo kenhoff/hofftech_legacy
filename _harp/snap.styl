@@ -1,0 +1,49 @@
+
+.snap-content
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	z-index: 2;
+	background-color: #111111
+
+.snap-drawers {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	width: auto;
+	height: auto;
+	background-color: #222222
+}
+
+.snap-drawer
+	position: absolute;
+	top: 0;
+	right: auto;
+	bottom: 0;
+	left: auto;
+	width: 265px;
+	height: auto;
+	overflow: auto;
+
+
+.snap-drawer-left {
+	left: 0;
+	z-index: 1;
+}
+
+
+.snap-drawer-right {
+	right: 0;
+	z-index: 1;
+}
+
+.snapjs-left .snap-drawer-right,
+.snapjs-right .snap-drawer-left {
+	display: none;
+}

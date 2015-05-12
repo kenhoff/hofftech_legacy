@@ -1,0 +1,39 @@
+.center
+	display flex
+	flex-direction column
+	align-items center
+
+.object-grid
+	margin auto
+	display flex
+	flex-wrap wrap
+	flex-direction row
+	align-items flex-start
+
+.object-grid-item
+	max-width 400px
+	height auto
+	margin auto
+	padding 0px 20px
+	&:hover
+		background-color #222222
+
+.face
+	height 220px
+	width 220px
+	background-position center
+	background-size cover
+	border-radius 500px
+	filter grayscale(100%)
+	margin 40px auto
+	
+#ken
+	background-image url('ken.jpg')
+
+#titan
+	background-image url('//kenhoff.net/img/asteroids2_screen.png')
+
+.grid-item-text
+	margin 10px 0px
+	a
+		text-decoration underline
