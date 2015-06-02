@@ -1,6 +1,6 @@
 <head><meta name="viewport" content="width=device-width, initial-scale=1"/><title>HOFFTECH</title><link href="//fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css"/><script src="//cdn.jsdelivr.net/walkway/0.0.1/walkway.min.js"></script><script>document.addEventListener("DOMContentLoaded", function () {
- var svg = new Walkway({selector: '#logo', duration: 8000, easing: "easeInOutExpo"});
- svg.draw();
+	var svg = new Walkway({selector: '#logo', duration: 8000, easing: "easeInOutExpo"});
+	svg.draw();
 })</script><link rel="stylesheet" href="/main.css" type="text/css"/><link rel="stylesheet" href="/snap.css" type="text/css"/><link rel="stylesheet" href="/flexgrid.css" type="text/css"/><link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"/><script>(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
 m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
@@ -8,21 +8,34 @@ m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
 
 ga('create', 'UA-53737994-3', 'auto');
 ga('send', 'pageview');
-</script></head><body><div class="snap-drawers"><div class="snap-drawer snap-drawer-right"><div class="drawerbuttons"><a href="/who" class="subnavbutton"><div class="subnavbuttontext">who we are</div></a><a href="/what" class="subnavbutton"><div class="subnavbuttontext">what we do</div></a><a href="mailto:ken@hoff.technology" class="sub-cta-button"> <div class="button-text">get in touch</div></a></div><!--	<a href="/why" class="subnavbutton"><div class="subnavbuttontext">why we do it</div></a>--></div></div><div id="content" class="snap-content"><div class="subnav"><a href="/"><img id="navlogo" src="/hofftech-logo-01.png"/></a><div class="subnavbuttons"><a href="/who" class="subnavbutton"><div class="subnavbuttontext">who we are</div></a><a href="/what" class="subnavbutton"><div class="subnavbuttontext">what we do</div></a><a href="mailto:ken@hoff.technology" class="sub-cta-button"> <div class="button-text">get in touch</div></a></div><!--<a href="/why" class="subnavbutton"><div class="subnavbuttontext">why we do it</div></a>--><a href="#" onclick="toggleSnap()" class="hamburger"><div class="hamburger-icon"><i class="fa fa-bars fa-2x"></i></div></a></div><div style="overflow: auto" class="scroll"><p>coming soon!</p><!--.page<p>We all grew up watching science fiction. <em>Tron</em>, <em>The Fifth Element</em> and <em>The Next Generation</em> basically shaped our childhoods.</p>
-<p>These worlds....something something. It was mysterious and alluring, and it made us feel like technology could make the world a better place.</p>
-<p>We still think it can.</p>
-<p>something about technology -&gt; social good</p>
-<p>We&#39;re not glorified toymakers. We don&#39;t create trivial nothings that cater only to the rich and privileged. </p>
-<p>That&#39;s not to say that we don&#39;t make toys. When we do, they&#39;re simple, accessible, and delightful.</p>
-<p>something about bringing high-tech to the masses, improving lives</p>
-<div class="email"><p>Get in touch.</p><a href="mailto:hi@hoff.technology">hi@hoff.technology</a></div>--></div></div><script src="//cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.2/snap.min.js"></script><script>var snapper = new Snap({
- element: document.getElementById('content'),
- disable: 'left'
+</script></head><body><div class="snap-drawers"><div class="snap-drawer snap-drawer-right"><div class="drawerbuttons"><a href="/who" class="subnavbutton"><div class="subnavbuttontext">who we are</div></a><a href="/what" class="subnavbutton"><div class="subnavbuttontext">what we do</div></a><a href="mailto:ken@hoff.technology" class="sub-cta-button"> <div class="button-text">get in touch</div></a></div><!--	a.subnavbutton(href = "/why")
+	.subnavbuttontext why we do it
+--></div></div><div id="content" class="snap-content"><div class="subnav"><a href="/"><img id="navlogo" src="/hofftech-logo-01.png"/></a><div class="subnavbuttons"><a href="/who" class="subnavbutton"><div class="subnavbuttontext">who we are</div></a><a href="/what" class="subnavbutton"><div class="subnavbuttontext">what we do</div></a><a href="mailto:ken@hoff.technology" class="sub-cta-button"> <div class="button-text">get in touch</div></a></div><!--a.subnavbutton(href = "/why")
+	.subnavbuttontext why we do it--><a href="#" onclick="toggleSnap()" class="hamburger"><div class="hamburger-icon"><i class="fa fa-bars fa-2x"></i></div></a></div><div style="overflow: auto" class="scroll"><p>coming soon!</p><!--.page:markdown
+	We all grew up watching science fiction. *Tron*, *The Fifth Element* and *The Next Generation* basically shaped our childhoods.
+
+	These worlds....something something. It was mysterious and alluring, and it made us feel like technology could make the world a better place.
+
+	We still think it can.
+
+	something about technology -> social good
+
+	We're not glorified toymakers. We don't create trivial nothings that cater only to the rich and privileged. 
+
+	That's not to say that we don't make toys. When we do, they're simple, accessible, and delightful.
+
+	something about bringing high-tech to the masses, improving lives
+
+.email
+	p Get in touch.
+	a(href = "mailto:hi@hoff.technology") hi@hoff.technology--></div></div><script src="//cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.2/snap.min.js"></script><script>var snapper = new Snap({
+	element: document.getElementById('content'),
+	disable: 'left'
 });</script><script>toggleSnap = function () {
- if (snapper.state()['state'] == 'closed') {
-  snapper.open('right')
- }
- else {
-  snapper.close()
- }
+	if (snapper.state()['state'] == 'closed') {
+		snapper.open('right')
+	}
+	else {
+		snapper.close()
+	}
 }</script></body>
