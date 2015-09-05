@@ -2,7 +2,7 @@
 ## notes
 body background #111111 button background #222222 button background hover #333333 blue button #0055EE blue button hover #0044DD
 
-.grid-item-text The Field Of Heroes, a memorial in central Idaho, is a field of almost 7000 crosses, each one dedicated to a soldier who fell during the engagments in the Middle East.
+.grid-item-text The Field Of Heroes, a memorial in central Idaho, is a field of almost 7000 crosses, each one dedicated to a servicemember who fell during the engagements in the Middle East.
 .grid-item-text We built an app that generated individual QR codes that could be placed on each cross, and when scanned, would provide more information about that soldier.
 
 .grid-item-text Games!
@@ -20,8 +20,8 @@ body background #111111 button background #222222 button background hover #33333
 
 	something about technology -> social good
 
-	We're not glorified toymakers. We don't create trivial nothings that cater only to the rich and privileged.
+	I'm not a glorified toymaker; I don't create trivial nothings that cater only to the rich and privileged.
 
-	That's not to say that we don't make toys. When we do, they're simple, accessible, and delightful.
+	That's not to say that I don't make toys. When I do, they're simple, accessible, and delightful.
 
 	something about bringing high-tech to the masses, improving lives -->

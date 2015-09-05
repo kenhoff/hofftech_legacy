@@ -1,1 +1,17 @@
-font-family: 'Montserrat', sans-serif;
+@import "bootstrap"
+
+.main
+	height 50%
+	display flex
+	& > img
+		margin auto
+
+.buttons
+	display flex
+	justify-content space-around
+	flex-flow row wrap
+	& > a
+		margin auto
+		width 100px
+	@media (max-width: 330px)
+		flex-flow column nowrap
