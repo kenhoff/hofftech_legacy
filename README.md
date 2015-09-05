@@ -12,9 +12,9 @@ body background #111111 button background #222222 button background hover #33333
 
 
 <!-- :markdown
-	We all grew up watching science fiction. *Tron*, *The Fifth Element* and *The Next Generation* basically shaped our childhoods.
+	I grew up watching science fiction. *Tron*, *The Fifth Element* and *The Next Generation* basically shaped my childhood.
 
-	These worlds....something something. It was mysterious and alluring, and it made us feel like technology could make the world a better place.
+	These worlds....something something. It was mysterious and alluring, and it made me realize technology could make the world a better place.
 
 	We still think it can.
 
