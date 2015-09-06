@@ -1,17 +1,12 @@
-doctype html
-html
-	head
-		meta(name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no")
-		link(href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.5/darkly/bootstrap.min.css", rel="stylesheet" integrity="sha256-IsefKVCcMUlgpXQgIMRsqbIqC6aP153JkybxTa7W7/8= sha512-mCNEsmR1i3vWAq8hnHfbCCpc6V5fP9t0N1fEZ1wgEPF/IKteFOYZ2uk7ApzMXkT71sDJ00f9+rVMyMyBFwsaQg==" crossorigin="anonymous")
-		link(href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css')
-		link(href = "/styl/main.css" rel = "stylesheet" type = "text/css")
-		link(href = "/styl/front.css", rel = "stylesheet", type = "text/css")
+extends _rootlayout
+
+block head
+	link(href = "/styl/index.css", rel = "stylesheet", type = "text/css")
 			
-	body
-		.container
-			header
-				img(src = "/logo.png").img-responsive
-			.buttons
-				a.btn.btn-default(href = "/who") who
-				a.btn.btn-default(href = "/what") what
-				a.btn.btn-primary(href = "mailto:ken@hoff.tech") hello
+block body
+	header
+		img(src = "/logo.png").img-responsive
+	.buttons
+		a.btn.btn-default(href = "/ken") who
+		a.btn.btn-default(href = "/projects") what
+		a.btn.btn-primary(href = "mailto:ken@hoff.tech") hello
