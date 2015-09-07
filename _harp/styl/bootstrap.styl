@@ -13,18 +13,22 @@ a
 .btn
 	border-radius 2px
 
-// color for default buttons
-.btn-default
+// color for default buttons + navbar buttons
+.btn-default, .navbar-default .navbar-nav>li>a.btn-default, .navbar-default .navbar-toggle
+	color #ffffff
 	border-color #222222
 	background-color #222222
-	&:hover
+	&:hover, &:focus
+		color #ffffff
 		border-color #333333
 		background-color #333333
 
-// color for primary button
-.btn-primary
+// color for primary button + navbar buttons
+.btn-primary, .navbar-default .navbar-nav>li>a.btn-primary
+	color #ffffff
 	border-color #0066ff
 	background-color #0066ff
-	&:hover
+	&:hover, &:focus
+		color #ffffff
 		border-color #1372FF
 		background-color #1372FF
