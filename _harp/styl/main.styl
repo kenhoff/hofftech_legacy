@@ -1,0 +1,14 @@
+@import "bootstrap"
+
+html, body, .container
+	height 100%
+
+.buttons
+	display flex
+	justify-content space-around
+	flex-flow row wrap
+	& > a
+		margin auto
+		width 100px
+	@media (max-width: 330px)
+		flex-flow column nowrap

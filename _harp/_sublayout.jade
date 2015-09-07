@@ -1,60 +1,27 @@
-extends _mainlayout
-
+extends _rootlayout
 
 block head
+	link(href = "/styl/navbar.css" rel = "stylesheet" type = "text/css")
+	block sub_head
 
-block content
-	.snap-drawers
-		.snap-drawer.snap-drawer-right
-			.drawerbuttons
-				a.subnavbutton(href = "/who")
-					.subnavbuttontext who we are
-			
-				a.subnavbutton(href = "/what")
-					.subnavbuttontext what we do
+block navbar
+	nav.navbar.navbar-default.navbar-fixed-top
+		.container
+			//- // Brand and toggle get grouped for better mobile display
+			.navbar-header
+				button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
+					i.fa.fa-bars
+				a.navbar-brand(href='/', target = "_self")
+					img(src = "/logo.png")
+			//- // Collect the nav links, forms, and other content for toggling
+			#bs-example-navbar-collapse-1.collapse.navbar-collapse
+				ul.nav.navbar-nav.navbar-right
+					li
+						a.btn.btn-default(href = "/ken", target = "_self") who
+					li
+						a.btn.btn-default(href = "/projects", target = "_self") what
+					li
+						a.btn.btn-primary(href = "mailto:ken@hoff.tech", target = "_self") hello
 
-				a.sub-cta-button(href = "mailto:ken@hoff.tech") 
-					.button-text get in touch
-
-			//	
-				a.subnavbutton(href = "/why")
-					.subnavbuttontext why we do it
-
-	#content.snap-content
-		.subnav
-			a(href = "/"): img#navlogo(src = "/hofftech-logo-01.png")
-			.subnavbuttons
-				a.subnavbutton(href = "/who")
-					.subnavbuttontext who we are
-				a.subnavbutton(href = "/what")
-					.subnavbuttontext what we do
-				a.sub-cta-button(href = "mailto:ken@hoff.tech") 
-					.button-text get in touch
-			//
-				a.subnavbutton(href = "/why")
-					.subnavbuttontext why we do it
-			a.hamburger(href = "#", onclick = "toggleSnap()")
-				.hamburger-icon
-					i.fa.fa-bars.fa-2x
-
-
-		.scroll(style = "overflow: auto")
-			block subcontent
-				
-				
-	script(src = "//cdnjs.cloudflare.com/ajax/libs/snap.js/1.9.2/snap.min.js")
-	script.
-		var snapper = new Snap({
-			element: document.getElementById('content'),
-			disable: 'left'
-		});
-	script.
-		toggleSnap = function () {
-			if (snapper.state()['state'] == 'closed') {
-				snapper.open('right')
-			}
-			else {
-				snapper.close()
-			}
-		}
-	
+block body
+	block sub_body
