@@ -1,0 +1,48 @@
+// .individual
+// 	display flex
+// 	flex-direction column
+// 	align-items center
+// 	& > .image
+// 		width 220px
+// 		height 220px
+// 		border-radius 2px
+// 		background-position center
+// 		background-size cover
+// 		filter grayscale(100%)
+// 	& > .140
+// 	& > .description
+// 		& > p
+// 			margin 10px 0px
+
+
+
+.multiple
+	margin auto
+	display flex
+	flex-direction row
+	flex-wrap wrap
+	justify-content center
+	& > .item
+		width 280px
+		background-color #222222
+		margin 10px
+		padding 20px
+		display flex
+		flex-direction column
+		align-items center
+		& > .image
+			width 240px
+			height 240px
+			border-radius 2px
+			background-position center
+			background-size cover
+			filter grayscale(100%)
+			background-repeat no-repeat
+			background-color:#111111
+		& > .title
+			text-align center
+		&:hover
+			background-color #333333
+	a
+		color inherit
+		text-decoration inherit
