@@ -1,0 +1,19 @@
+extends _sublayout
+
+block sub_head
+	link(rel = "stylesheet", href = "/styl/multiple.css")
+		
+block sub_body
+		.multiple
+			a.item(href = "https://rodent.herokuapp.com/")
+				.image(style = 'background-image: url("/rodent.gif")')
+				h3.title Rodent
+				.140 Monty Python murderous rabbit simulator.
+			a.item(href = "http://kenhoff.net/games/violence/play")
+				.image(style = 'background-image: url("/violence.png")')
+				h3.title Violence
+				.140 A game that doesn't appear to be violent, but feels violent.
+			a.item(href = "http://kenhoff.net/games/bananacat/play")
+				.image(style = 'background-image: url("/maniac_mystery_mansion.png")')
+				h3.title Maniac Mystery Mansion
+				.140 A co-op point-and-click adventure game.
