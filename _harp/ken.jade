@@ -1,9 +1,9 @@
-extends _rootlayout
+extends _sublayout
 
-block head
+block sub_head
 	link(rel = "stylesheet", href = "/styl/individual.css")
 
-block body
+block sub_body
 	.individual
 		.image(style = 'background-image: url("ken.jpg")')
 		h1.title Ken Hoff
@@ -15,4 +15,4 @@ block body
 			p I'm a big fan of biking, cooking, and annoying my adorably dumb cat with the ukulele.
 			p I've worked at Microsoft, as well as a number of startups.
 			p I primarily work in Node.js, React, and RethinkDB.
-			p Hit me up at <a href="mailto: ken@hoff.tech">ken@hoff.tech</a>.
+			p Say hello at <a href="mailto: ken@hoff.tech">ken@hoff.tech</a>.
