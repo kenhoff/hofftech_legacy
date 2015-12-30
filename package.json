@@ -1,7 +1,7 @@
 {
   "name": "hofftech",
   "version": "1.0.0",
-  "description": "body background #111111 button background #222222 button background hover #333333 blue button #0055EE blue button hover #0044DD",
+  "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "if [ $PORT ]; then harp server --port $PORT; else harp server; fi"
