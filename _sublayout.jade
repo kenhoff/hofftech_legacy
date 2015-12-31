@@ -10,7 +10,7 @@ block navbar
 			//- // Brand and toggle get grouped for better mobile display
 			.navbar-header
 				button.navbar-toggle.collapsed(type='button', data-toggle='collapse', data-target='#bs-example-navbar-collapse-1', aria-expanded='false')
-					i.fa.fa-bars
+					span.glyphicon.glyphicon-menu-hamburger
 				a.navbar-brand(href='/', target = "_self")
 					img(src = "/img/hofftech_logo.png")
 			//- // Collect the nav links, forms, and other content for toggling
@@ -22,6 +22,8 @@ block navbar
 						a.btn.btn-default(href = "/projects", target = "_self") projects
 					li
 						a.btn.btn-default(href = "/games", target = "_self") games
+					li
+						a.btn.btn-default(href = "/blog", target = "_self") blog
 					li
 						a.btn.btn-primary(href = "mailto:ken@hoff.tech", target = "_self") say hello
 
