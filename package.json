@@ -4,6 +4,7 @@
   "description": "",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "postinstall": "bower install",
     "start": "if [ $PORT ]; then harp server --port $PORT; else harp server; fi"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/hofftech/hofftech.github.io#readme",
   "dependencies": {
+    "bower": "^1.7.1",
     "harp": "^0.20.1"
   }
 }
