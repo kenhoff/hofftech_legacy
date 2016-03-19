@@ -2,9 +2,9 @@ deployment:
     production:
         branch: master
         commands:
-            - npm i harp -g
-            - shopt -s extglob
+            - mkdir ../_harp_tmp
+            - mv ./* ../_harp_tmp
             - mkdir _harp
-            - mv ./!(_harp) _harp
+            - mv ../_harp_tmp/* ./_harp
             - harp compile ./_harp ./*
             - ls -la
