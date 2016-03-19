@@ -1,0 +1,5 @@
+deployment:
+    production:
+        branch: master
+        commands:
+            - git checkout https://github.com/hofftech/hofftech.git
