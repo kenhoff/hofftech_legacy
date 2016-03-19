@@ -2,11 +2,8 @@ deployment:
     production:
         branch: master
         commands:
-            - mkdir ../_harp_tmp
-            - mv ./* ../_harp_tmp
-            - mkdir _harp
-            - mv ../_harp_tmp/* ./_harp
-            - pwd
+            - harp compile ./ _harp
+            - mv _harp /tmp
+            - rm -rf *
+            - mv /tmp/_harp/* ./
             - ls
-            - npm run build
-            - ls -la
