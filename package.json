@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "postinstall": "bower install",
-    "start": "if [ $PORT ]; then harp server --port $PORT; else harp server; fi"
+    "start": "if [ $PORT ]; then harp server --port $PORT; else harp server; fi",
+    "build": "harp compile ./_harp ./*"
   },
   "repository": {
     "type": "git",

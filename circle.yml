@@ -7,5 +7,7 @@ deployment:
             - mv ./* ../_harp_tmp
             - mkdir _harp
             - mv ../_harp_tmp/* ./_harp
-            - harp compile ./_harp ./*
+            - pwd
+            - ls
+            - npm run build
             - ls -la
