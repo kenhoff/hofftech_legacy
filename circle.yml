@@ -6,5 +6,5 @@ deployment:
             - shopt -s extglob
             - mkdir _harp
             - mv ./!(_harp) _harp
-            - harp compile _harp ./*
+            - harp compile ./_harp ./*
             - ls -la
