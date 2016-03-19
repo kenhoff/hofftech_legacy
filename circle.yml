@@ -2,7 +2,8 @@ deployment:
     production:
         branch: master
         commands:
+            - shopt -s extglob
             - mkdir _harp
-            - mv ./* _harp
+            - mv ./!(_harp) _harp
             - harp compile _harp ./*
             - ls -la
