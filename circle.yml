@@ -2,6 +2,7 @@ deployment:
     production:
         branch: master
         commands:
+            - npm i harp -g
             - mkdir ../_harp_tmp
             - mv ./* ../_harp_tmp
             - mkdir _harp
