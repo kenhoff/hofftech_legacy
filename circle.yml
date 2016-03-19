@@ -2,4 +2,4 @@ deployment:
     production:
         branch: master
         commands:
-            - git checkout https://github.com/hofftech/hofftech.git
+            - git clone https://github.com/hofftech/hofftech.git
