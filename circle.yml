@@ -5,7 +5,7 @@ deployment:
     production:
         branch: master
         commands:
-            - harp compile ./ _harp
+            - npm run build
             - mv _harp /tmp
             - rm -rf *
             - mv /tmp/_harp/* ./
